@@ -1,0 +1,105 @@
+body{
+    overflow-x: hidden;
+}
+header img{
+    height: 40vh!;
+    width: 100vw;
+}
+header nav{
+    height: 6vh;
+}
+header .form-control{
+    height: 4vh;
+    align-self: center;
+}
+header nav form .btn{
+    height: 4vh;
+    padding: 0vh 1vw 0vh 1vw;
+}
+article img{
+    height: 40vh;
+}
+article .carousel{
+    margin-top: 3vh;
+    width: 64vw;
+}
+#boxes{
+    display: flex;
+    flex-direction: row;
+    width: 65vw;
+    height: 100vh;
+    margin-top: 3vh;
+}
+#box1{
+    margin-left: 1vw;
+    margin-right: 3px;
+}
+#box2{
+    margin-left: 1vw;
+}
+#box1 .card{
+    width: 32vw;
+}
+#box2, #box1{
+    width: 32vw;
+}
+#box2 .card{
+    width: 31vw;
+}
+#box2 .card-img, .card-img-bottom, .card-img-top {
+    height: 30vh;
+}
+#boxesaside{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    margin-top: 3vh;
+    height: 10vh;
+    width: 10vw;
+}
+aside .form-inline{
+    flex-flow: row;
+}
+aside nav{
+    width: 31vw;
+    background-color: black;
+}
+aside nav .form-inline .form-control{
+    width: 22vw;!important
+}
+Aside .card{
+    background-color: #343a40;
+    width: 31vw;
+    margin-top: 2vh;
+}
+.card-header{
+    color: white;!important
+}
+aside .carousel{
+    margin-top: 3vh;!important
+}
+aside .carousel-inner{
+    width: 31vw;!important
+}
+aside .d-block{
+    height: 57vh;
+}
+footer{
+    background-color: #343a40;
+    height: 6vh;
+    color: white;
+    text-indent: 18px;
+    font-size: 0.9em;
+    display: flex;
+}
+footer p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#boxesaside{
+    height: 110vh;
+}
+#box1, #box2, #boxes{
+    height: 10vh;
+}
